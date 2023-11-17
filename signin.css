@@ -1,0 +1,170 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+}
+body {
+  position: relative;
+}
+.container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: red; */
+  text-align: center;
+  padding:auto;
+}
+
+.background {
+  height: 99.9vh;
+  background-color: #0850f8;
+  width: 100%;
+  border-bottom-right-radius: 1800px;
+  border-bottom-left-radius: 50px;
+
+  position: relative;
+}
+
+.wrapper-1 {
+  /* margin-top: 25%; */
+  align-self: center;
+  position: absolute;
+  top: 22%;
+  left: 25%;
+}
+.waiting {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.btn1 {
+  border-color: white;
+  background-color: #0850f8;
+}
+
+
+.wrapper-2 {
+  /* margin-top: 52%; */
+  width: 100%;
+  height: 700px;
+  align-self: center;
+}
+
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+
+.inline {
+  max-width: 600px;
+  margin: auto;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.icon {
+  padding: 30px;
+}
+
+.input-field {
+  font-size: 25px;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.btn2 {
+  border-color: #0850f8;
+  background-color: #0850f8;
+}
+
+
+
+img {
+  position: sticky;
+  top: 43%;
+  left: 0%;
+  margin-right: 370px;
+}
+
+.btn1,
+.btn2 {
+  font-size: 25px;
+  padding: 10px 50px;
+  border-radius: 50px;
+  font-weight: 900;
+  color: rgb(246, 245, 245);
+  border: solid 5px black;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: #0850f8;
+  transition: 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: #0850f8;
+  transition: 0.3s ease;
+}
+
+
+
+
+.lastp {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-top: 20px;
+  margin-top: 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.links a {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+.links a:hover {
+  background-color: #0850f8;
+  transition: 0.3s ease;
+  color: #000000;
+}
+.twitter {
+  margin: 50px;
+  margin: 0;
+  height: 75px;
+  width: 75px;
+}

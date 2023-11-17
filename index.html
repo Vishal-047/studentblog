@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Blog</title>
+    <style>
+       
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+    
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: right;
+            margin-right: 20%;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav h2{
+            margin-left: 25px;
+            color:rgb(0, 89, 255);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(142, 69, 69);
+            font-weight: bold;
+    
+        }
+
+        main {
+            margin: 20px;
+            float:left;
+            width: 70%;
+        }
+
+        .blog-post {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        aside {
+            float: right;
+            width: 22%;
+            margin: 20px;
+        }
+        aside a
+        {
+            text-decoration: none;
+            color:blue;
+        }
+
+        .widget {
+            background-color: #f5f5f5;
+            padding: 10px;
+            margin-bottom: 20px;
+            line-height: 50px;
+        }
+        fieldset{
+           width: 100%; 
+        }
+        form{
+            text-align: right;
+        }
+        .container{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .box{
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 7px 7px gray;
+            margin: 40px 20px;
+            overflow: hidden;
+
+        }
+        .box p{
+            font-size: 20px;
+            color:#333;
+            padding: 10px 30px;
+            text-align: justify;
+            line-height: 28px;
+        }
+        #check{display:none;
+        }
+        
+        .content{
+            display:none;
+            transition: 0.5s linear;
+        }
+        label{
+            display: inline-block;
+            margin-top: 15px;
+            margin-left: 780px;
+            margin-bottom: 15px;
+            color:rgb(255, 106, 0);
+            text-decoration: underline;
+            cursor: pointer;
+            font-weight: 600;
+            
+        }
+        #check:checked ~ .content{
+            display: block;
+        }
+        #check:checked ~ label
+        {
+                visibility: hidden;
+        }
+        #check:checked ~ label:after
+        {
+            content:"Read Less";
+            display: block;
+            visibility: visible; 
+        }
+        .navbuttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+
+
+.navwhitebutton {
+   
+    background-color: white;
+    border-radius: .6rem;
+    font-size: 1.2rem;
+    color:black;
+    border: 2px solid rgba(8,80,248,255);
+    margin: 0 1.5rem;
+    cursor: pointer;
+    text-align: right;
+
+}
+        
+    </style>
+</head>
+<body bgcolor="cyan">
+    <header>
+        <h1>Student Blog</h1>
+    </header>
+    <hr color="red">
+    <nav>
+        <h2>STUDENT LIFESTYLE</h2>
+        <ul>
+            <li><a href="https://schoolhabits.com/">Home</a></li>
+            <li><a href="https://schoolhabits.com/about/">About</a></li>
+            <li><a href="https://startbloggingonline.com/get-started-classroom-blogging/">Blog</a></li>
+            <li><a href="https://schoolhabits.com/contact-me/">Contact</a></li>
+            <li>
+                <button class="navwhitebutton" onclick="window.location.href='signin.html';" type="button">Sign In</button>
+                </li>
+        </ul>
+    </nav>
+    <hr color="red">
+
+    <main>
+        <section class="blog-post">
+
+            <fieldset>
+                <div class="container">
+                    <div class="box">
+                        <input type="checkbox" id="check">
+            <h2>
+                Thriving in the Student Lifestyle: Mastering the Art of Balance</h2><br>
+            <p>
+                Student life is a whirlwind of classes, socializing, and personal growth. The key to thriving in this dynamic environment lies in mastering the delicate art of lifestyle management. From academics to self-care, striking a balance is essential for a fulfilling and successful student experience.<br>
+                
+                
+                Navigating the academic landscape is at the heart of the student lifestyle. With lectures, assignments, and exams, time management becomes a crucial skill. Successful students often employ strategies such as creating schedules, prioritizing tasks, and breaking down larger projects into manageable steps. Balancing study time with effective breaks and seeking academic support when needed are essential components of this juggling act.<br>
+                
+               
+                Beyond the classroom, social interactions play a vital role in the student lifestyle. Building connections, participating in clubs, and attending events contribute to a vibrant campus experience. However, it's important to strike a balance. Overcommitting to social activities can lead to burnout, while isolation can impact mental well-being. Finding the right social rhythm is a personal journey, often involving trial and error.<br></p>
+                
+                <div class="content"><p>
+                The demands of student life can take a toll on physical and mental well-being. Incorporating self-care routines, such as regular exercise, healthy eating, and sufficient sleep, is crucial. Additionally, mindfulness practices like meditation or yoga can help manage stress. Recognizing the signs of burnout and prioritizing mental health is an integral part of maintaining wellness harmony.<br>
+                
+                
+                For many students, managing finances is a significant aspect of their lifestyle. Budgeting, seeking part-time employment, and exploring financial aid options are strategies to navigate the financial tightrope. Developing financial literacy early on sets the stage for responsible money management throughout one's academic journey.<br>
+                
+                
+                The student lifestyle is a complex tapestry of academic pursuits, social engagements, and personal well-being. Successful navigation requires a delicate balance, akin to a well-choreographed dance. By mastering the art of lifestyle management — from academics to social life, wellness, and finances — students can not only survive but thrive during these formative years.</p></div>
+                <label for="check">Read More</label>
+            
+        
+        </fieldset>
+        </section>
+        <section class="blog-post">
+            <fieldset>
+                <div class="container">
+                    <div class="box">
+                        
+            <h2>Embracing Diversity: The Varied Rhythms of Student Life</h2><br>
+            <p>Student life is a mosaic of diverse experiences, each individual contributing a unique thread to the intricate fabric of university existence. From the early risers hitting the books before sunrise to the night owls thriving in the glow of late-night study sessions, the rhythms of student lifestyles are as varied as the students themselves.<br>
+
+                
+                Some students find their stride in the early hours of the day. They wake up with the sun, seizing the quiet morning hours for focused study sessions, workouts, or personal reflection. For these early birds, the stillness of dawn becomes the backdrop for productivity and self-discovery.<br>
+                
+                
+                On the flip side, night owls come alive as the sun sets. Libraries become nocturnal sanctuaries, and the hum of late-night study sessions echoes through the halls. These students thrive in the quietude of the night, finding inspiration when the world around them sleeps.<br></p>
+                
+                <p>
+                Student life is not just about academics. Social butterflies flutter from one event to another, embracing the diverse array of clubs, parties, and gatherings. Their calendars are filled with social engagements, and they relish the opportunity to connect with a wide range of people.<br>
+                
+               
+                For the Renaissance souls, student life is a canvas for exploration. They balance academics with a plethora of interests — from the arts to sports, sciences to humanities. Their lifestyle is an intricate tapestry woven with a myriad of passions, each contributing to a holistic and fulfilling experience.<br>
+                
+                
+                The beauty of student life lies in its diversity. From the early risers to the night owls, the social butterflies to the Renaissance souls, each student lifestyle adds a unique hue to the campus palette. Embracing and celebrating this diversity fosters a rich and inclusive environment where every student can find their own rhythm and thrive in the vibrant tapestry of university life.</p></div>
+                
+                
+            </fieldset>
+            
+            <br><br>
+                <a href="https://collegeinfogeek.com/blog/">
+                <input type="submit" value="Previous"></a>
+               <form>
+                <a href="https://schoolhabits.com/">
+                <input type="button" value="Next"></a></form>
+        </section>
+    </main>
+
+    <aside>
+        <section class="widget">
+            <h3>Trending Articles</h3>
+            <ol>
+                <li><a href="https://www.researchgate.net/publication/355209730_Student_eXperience_A_Systematic_Literature_Review">Student Academic Experience</a></li>
+                <li><a href="https://ctl.wiley.com/ensuring-students-thinking-understanding-online-classroom/">Student Thoughts</a></li>
+                <li><a href="https://link.springer.com/article/10.1007/s10212-012-0123-8">A Student Collectives</a></li>
+                <li><a href="https://www.timeshighereducation.com/campus/student-diaries-tool-improve-university-experience">The Student Diaries</a></li>
+            </ol>
+        </section>
+
+        <section class="widget">
+            <h3>Become a Supporter</h3>
+            <ul>
+                <li><a href="https://www.indeed.com/career-advice/career-development/how-to-write-articles">Write an article</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="sign.html">Create own Blog</a></li>
+            </ul>
+        </section>
+    </aside>
+</body>
+</html>
